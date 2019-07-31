@@ -22,4 +22,6 @@ attr_accessor :name
     @@all.each{|dog| puts "#{dog.name}"}
   end
   
+  def save
+    
  end
