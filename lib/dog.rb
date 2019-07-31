@@ -5,7 +5,7 @@ attr_accessor :name
   def initialize(name)
  @name = name 
  @@all << self 
- dog.save
+ 
   end
 
   def self.all
@@ -22,7 +22,4 @@ attr_accessor :name
     @@all.each{|dog| puts "#{dog.name}"}
   end
   
-  def save
-    self.class.all << self
-  end
-end
+ 
